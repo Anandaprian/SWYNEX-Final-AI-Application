@@ -33,7 +33,7 @@ Since the AI engine (spaCy) requires heavy processing, we run it in Google Colab
 
 1. Open a new [Google Colab Notebook](https://colab.research.google.com/).
 2. Click the **Folder icon** on the left sidebar.
-3. Drag and drop `pii_guard.py` and `server.py` from your extracted folder directly into the Colab file explorer. They will be uploaded to the root `/` directory.
+3. Use the upload icon there to upload `pii_guard.py` and `server.py` from your extracted folder directly into the Colab file explorer. They will be uploaded to the root `/` directory.
 4. Run the following cell to install the dependencies and download the tunnel tool:
 
 ```bash
