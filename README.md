@@ -46,12 +46,9 @@ Since the AI engine (spaCy) requires heavy processing, we run it in Google Colab
 !chmod +x cloudflared
 ```
 
-5. Click **+ Code** again to create another code cell. Run the following commands to move the Python files into Colab's working directory and start the server:
+5. Click **+ Code** again to create another code cell. Run the following commands to start the server:
 
 ```bash
-!mv /server.py /content/
-!mv /pii_guard.py /content/
-
 !nohup python server.py > server.log 2>&1 &
 ```
 
